@@ -39,6 +39,7 @@ export default function Search(prop) {
   }
 
   return (
+      <div>
     <form onSubmit={handleSearch} className = "search">
       <input
         type="search"
@@ -48,5 +49,9 @@ export default function Search(prop) {
       <input type="submit" value="Search" />
       <div>{Weather}</div>
     </form>
+    
+    <a href= "https://github.com/edendd/weather-react">Git-hub</a>
+    </div>
+    
   );
 }
